@@ -38,7 +38,9 @@ npx playwright test loginPage.spec.js --project=chromium --headed
 npx playwright test loginValidation.spec.js --project=chromium --headed
 npx playwright test loginInvalidValidation.spec.js --project=chromium --headed
 ```
+This will execute the tests one by one.
 or 
 ```bash
 npx playwright test tests/loginPage.spec.js tests/loginValidation.spec.js tests/loginInvalidValidation.spec.js --project=chromium --headed
 ```
+This will execute all the test files altogether.
